@@ -78,3 +78,14 @@ input, select {
   .button:hover {
       background-color: #b40e0e;
   }
+
+  .button:disabled{
+    background-color: #ccc;
+    color: #292929;
+    border-color: #ccc;
+    cursor: not-allowed;
+  }
+
+  .error-text {
+    color: #b40e0e;
+  }

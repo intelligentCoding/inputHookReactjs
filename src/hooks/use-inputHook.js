@@ -22,7 +22,7 @@ const useInputHook = (inputValidation) => {
     }
 
     //Once user submits we need to remove values from the input, we use this function
-    const resetForm = () => {
+    const resetField = () => {
         setValue('');
         setHasFocused(false);
     }
@@ -33,7 +33,7 @@ const useInputHook = (inputValidation) => {
         hasError,
         inputValueChanged,
         inputFocused,
-        resetForm
+        resetField
     }
 
 
